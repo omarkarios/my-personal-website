@@ -105,7 +105,7 @@ section {
   justify-content: center;
   margin-top: 1rem;
   gap: 1rem;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 /* ICONS */
@@ -161,6 +161,11 @@ section {
   gap: 1rem;
 }
 /* About Section Styling */
+#about{
+    height: 100%;
+    margin: 5px;
+    padding: 0 15rem;
+}
 
 .about-pic {
     border-radius: 2rem;
@@ -187,6 +192,10 @@ section {
 }
 .section-container , .about-details-container {
     display: flex;
-    justify-content: space-evenly;    
+    justify-content: space-around;    
     margin-bottom: 40px;
+}
+.text-container {
+    text-align: center;
+    padding-bottom: 10px;
 }
