@@ -71,6 +71,12 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
+    border-radius: 10rem;
+}
+
+#ppic {
+    border-radius: 100%;
+    object-fit: cover;
 }
 
 .section__text {
@@ -150,4 +156,37 @@ section {
 
 .btn-container {
   gap: 1rem;
+}
+#about {
+
+
+}
+
+.about-pic {
+    border-radius: 2rem;
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+}
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+.about-containers {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+.section-container , .about-details-container {
+    display: flex;
+    justify-content: space-evenly;    
+    margin-bottom: 40px;
 }
