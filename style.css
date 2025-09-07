@@ -48,6 +48,8 @@ a:hover {
 .logo:hover {
     cursor: default;
 }
+
+/*Profile Section styling*/
 section {
   padding-top: 4vh;
   height: 96vh;
@@ -63,7 +65,7 @@ section {
     justify-content: space-around;
     gap: 5rem;
     height: 80vh;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
        
 }
 .section__pic-container {
@@ -112,6 +114,7 @@ section {
   cursor: pointer;
   height: 2rem;
 }
+/*Buttons in profile section styling*/
 .btn-container {
   display: flex;
   justify-content: center;
@@ -157,10 +160,7 @@ section {
 .btn-container {
   gap: 1rem;
 }
-#about {
-
-
-}
+/* About Section Styling */
 
 .about-pic {
     border-radius: 2rem;
