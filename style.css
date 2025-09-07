@@ -232,7 +232,7 @@ li p {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
-    display: block;
+    
 }
 
 .contact-info-upper-container {
@@ -264,4 +264,16 @@ li p {
 
 .email-icon {
   height: 2.5rem;
+}
+
+/* FOOTER SECTION */
+
+footer {
+  height: 26vh;
+  margin: 0 1rem;
+  padding-bottom: 20px;
+}
+
+footer p {
+  text-align: center;
 }
