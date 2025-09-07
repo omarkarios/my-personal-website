@@ -199,3 +199,25 @@ section {
     text-align: center;
     padding-bottom: 10px;
 }
+
+.experience-item {
+    font-weight: 900;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.details-container {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+li p {
+    padding-left: 4rem;
+}
